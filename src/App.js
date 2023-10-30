@@ -1,7 +1,6 @@
 import React from 'react'; 
 import Navbar from './components/Navbar';
 import MainComponent from './components/MainComponent';
-import Footer from './components/Footer';
 import { useState } from 'react';
 import logo1 from './images/logo1.PNG';
 import logo2 from './images/logo2.PNG';
@@ -24,7 +23,6 @@ function App() {
     <div className="App">
       <Navbar mode={mode} toggleMode={toggleMode} lightLogo={logo1} darkLogo={logo2}/>
       <MainComponent/>
-      <Footer/>
     </div>
   );
 }
